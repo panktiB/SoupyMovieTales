@@ -24,7 +24,7 @@ function App() {
       <p className="text-gray-400 mt-2">Redux is working!</p>
 
       <div className="mt-4 space-x-2">
-        <button onClick={testRedux} className="bg-blue-600 px-4 py-2 rounded">
+        <button onClick={testRedux} className="bg-blue-600 px-4 py-2 rounded custom-button">
           Load Movies
         </button>
         <button

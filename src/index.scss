@@ -1,1 +1,21 @@
-@import 'tailwindcss';
+@use "sass:color";
+@import "tailwindcss";
+
+// SCSS variables
+$primary-color: #FFFF00;
+$secondary-color: #10b981;
+
+// SCSS nesting example
+.custom-button {
+  background: $primary-color;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+
+  &:hover {
+    background: color.adjust($primary-color, $lightness: -10%);
+  }
+
+  &.secondary {
+    background: $secondary-color;
+  }
+}
