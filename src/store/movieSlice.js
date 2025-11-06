@@ -34,7 +34,7 @@ export const {
   addToFavorites,
   removeFromFavorites,
   setLoading,
-  setError
+  setError,
 } = moviesSlice.actions
 
 export default moviesSlice.reducer

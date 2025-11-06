@@ -19,6 +19,11 @@ describe('App', () => {
     render(<App />)
     const heading = screen.getByText('IMDb React App')
     const container = heading.parentElement
-    expect(container).toHaveClass('min-h-screen', 'bg-gray-900', 'text-white', 'p-8')
+    expect(container).toHaveClass(
+      'min-h-screen',
+      'bg-gray-900',
+      'text-white',
+      'p-8'
+    )
   })
 })
