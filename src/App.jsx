@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { setMovies, addToFavorites } from './store/moviesSlice'
+import { setMovies, addToFavorites } from './store/movieSlice'
 
 function App() {
   const dispatch = useDispatch()
